@@ -1,0 +1,42 @@
+npm create vite@latest client: => React => JavaScript + SWC
+
+tailwind vite =>
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+
+In-client :
+[
+npm i 
+
+tailwind vite =>
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+npm i react-router-dom
+
+npm i react-icons
+
+]
+
+Bharat-Estate:[
+
+  npm init -y
+
+npm i express
+
+npm i nodemon
+
+npm i mongoose
+
+npm i dotenv
+
+
+]
+
+
+api : [
+
+
+
+]
