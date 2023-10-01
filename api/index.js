@@ -11,7 +11,7 @@ mongoose
   .catch((err) => {
     console.log(err);
   });
-  
+
 const app = express();
 
 app.listen(3000, () => {
