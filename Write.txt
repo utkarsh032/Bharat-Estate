@@ -17,6 +17,8 @@ npm i react-router-dom
 
 npm i react-icons
 
+npm install @reduxjs/toolkit react-redux
+
 ]
 
 Bharat-Estate:[
