@@ -46,7 +46,7 @@ export default function SignUp() {
       <form onSubmit={handleSubmit} className="flex flex-col gap-4">
         <input
           type="text"
-          placeholder="username"
+          placeholder="Username"
           className="border p-3 rounded-lg"
           id="username"
           onChange={handleChange}
@@ -54,7 +54,7 @@ export default function SignUp() {
 
         <input
           type="email"
-          placeholder="email"
+          placeholder="Email"
           className="border p-3 rounded-lg"
           id="email"
           onChange={handleChange}
@@ -62,7 +62,7 @@ export default function SignUp() {
 
         <input
           type="password"
-          placeholder="password"
+          placeholder="Password"
           className="border p-3 rounded-lg"
           id="password"
           onChange={handleChange}
@@ -73,10 +73,6 @@ export default function SignUp() {
           className="bg-slate-700 text-white p-3 rounded-lg uppercase hover:opacity-95 disabled:opacity-80"
         >
           {loading ? "Loading..." : "Sign Up"}
-        </button>
-
-        <button className="bg-red-700 text-white p-3 rounded-lg uppercase hover:opacity-95">
-          Countinue with Google
         </button>
       </form>
 
