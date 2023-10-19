@@ -22,6 +22,10 @@ npm install @reduxjs/toolkit react-redux
 npm i redux-persist
 
 npm i swiper
+
+npm install -D @tailwindcss/line-clamp
+
+toLocaleString("en-US")}//
 ]
 
 Bharat-Estate:[
