@@ -6,7 +6,10 @@ export default function ListingItem({ listing }) {
     <div className="bg-white shadow-md hover:shadow-lg transition-shadow overflow-hidden rounded-lg w-full sm:w-[330px]">
       <Link to={`/listing/${listing._id}`}>
         <img
-          src={listing.imageUrls[0] || "https://ojohomes-static.prod.ojocore.ca/d955ee75/images/msp/home-finder1.png"}
+          src={
+            listing.imageUrls[0] ||
+            "https://ojohomes-static.prod.ojocore.ca/d955ee75/images/msp/home-finder1.png"
+          }
           alt="listing cover"
           className="h-[320px] sm:h=[220px] w-full object-cover hover:scale-105 transition-scale duration-300"
         />
